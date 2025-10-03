@@ -1,0 +1,5 @@
+@media screen and (width < 375px) {
+  header, nav, aside, div.ad , footer{
+    display: none;
+  }
+}
