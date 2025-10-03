@@ -16,8 +16,8 @@ function defaultTheme() {
 
 defaulted.addEventListener("click", function(ev) {
     ev.preventDefault();
-    document.body.style.backgroundColor = "";
-    document.body.style.color = "";
+    document.body.classList.remove("dark");
+    defaultTheme();
 });
 
 darkMode.addEventListener("click", function(ev) {
